@@ -3,20 +3,6 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-right">
-                <form action="/api/products/get" method="post">
-                    @csrf
-                    <input type="hidden" value='{
-	"start_date": "2022-01-20",
-	"end_date": "2022-01-22"
-}' name="data" />
-                    <button type="submit" value="Submit">SUBMIT<button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 margin-tb">
-            <div class="pull-right">
                 <a class="btn btn-success" href="/dashboard/create" title="Create a product"> <i class="fas fa-plus-circle"></i>
                 </a>
             </div>
